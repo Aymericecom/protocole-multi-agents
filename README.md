@@ -207,6 +207,23 @@ Pas d'éditeur de code, pas de base de connaissances, pas de scripts existants. 
 
 > **Le contresens de départ.** On croit qu'il faut d'abord construire une base de connaissances, puis automatiser. C'est l'inverse. **La base de connaissances est un sous-produit du premier chantier fait à la main** — elle s'écrit toute seule le jour où on demande à Claude de raconter ce qu'on vient de faire ensemble.
 
+### Deux outils facultatifs, et ce qu'ils apportent vraiment
+
+Tout ce que produit le système est du **texte brut dans un dossier** — des fichiers `.md`. Ça se lit avec n'importe quoi, y compris l'aperçu du Finder. Deux outils rendent la relecture plus confortable ; ni l'un ni l'autre n'est nécessaire pour commencer.
+
+| Outil | Nécessaire | Ce qu'il apporte |
+|---|---|---|
+| **Claude Code** | **Oui** | C'est lui qui fait le travail. |
+| **Obsidian** | Non | Ouvre le dossier tel quel, sans rien importer. Les liens `[[entre notes]]` deviennent cliquables, les images s'affichent dans le texte, la recherche porte sur tout le dossier d'un coup. C'est le confort de relecture du journal et des procédures, quand elles commencent à se répondre entre elles. |
+| **Cursor** ou **VS Code** | Non | L'arborescence des fichiers à gauche et un terminal au même endroit : on voit les fichiers apparaître et changer pendant que ça tourne. Utile quand la chaîne produit beaucoup, inutile au départ. |
+
+**Deux pièges d'Obsidian, appris à l'usage :**
+
+- **Ouvrir le dossier de travail comme racine**, ni au-dessus ni en dessous. Ouvert trop haut, on navigue dans des dossiers sans rapport ; ouvert trop bas, la moitié des notes est hors du périmètre et les liens ne mènent nulle part.
+- **Le dossier `.claude/` restera invisible** — Obsidian masque tout ce qui commence par un point. Les fichiers de rôle des agents ne se relisent donc pas depuis Obsidian : c'est Claude Code, ou l'éditeur, pour ceux-là.
+
+> **Ce qui rend le système durable : il ne dépend d'aucun outil.** Le journal, les procédures, les rôles : du texte. Changer d'éditeur, de modèle ou d'assistant ne casse rien — ce qui a été appris reste lisible, et se relit dans dix ans.
+
 ## 12 · La méthode : trois temps, et le troisième se répète
 
 1. **Faire le travail une fois, entièrement à la main, avec Claude Code.** Sans chercher à automatiser quoi que ce soit. On corrige, on râle, on refait — c'est exactement ce qu'on veut : chaque correction est une règle qui sera capturée. *Ne pas fermer la fenêtre à la fin.*
