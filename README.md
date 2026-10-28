@@ -9,6 +9,8 @@ Deux parties :
 
 Issu d'une pratique réelle, généralisé : il ne dépend d'aucun outil, d'aucun modèle et d'aucun métier en particulier.
 
+À côté : [`ACTUALITES-ANTHROPIC.md`](ACTUALITES-ANTHROPIC.md), la veille sur ce qu'Anthropic publie et qui pourrait un jour toucher le protocole.
+
 ---
 
 # Partie I — Le protocole
